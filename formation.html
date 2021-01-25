@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Ninja Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+    <!--Nav BAR -->
+
+    <header class="lsh-font-txt">
+        <nav class="navbar navbar-expand-md navbar navbar-light fixed-top bg-light lsh-logo">
+            <a class="navbar-brand" href="accueil.html"><img src="assets/images/logo.png" alt="Logo Ninja Academy"
+                    href="accueil.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav lsh-nav-font nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-font lsh-font-txt" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="formation.html"><b>Nos Formations</b><span
+                                class="sr-only">(current)</span></a></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscription.html">Inscription</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Nav BAR FIN -->
+    <!--Jumbotron-->
+
+
+    <div class="jumbotron lsh-jumb-marges lsh-jumb-background">
+        <h1 class="display-4 lsh-carou-txt">FORMATIONS<br>
+            APPRENDRE LES ARTS ANCESTRAUX</h1><br>
+        <p class="lead">
+            <b><em>Tu veux t'entraîner avec nous ? Regarde nos formations</b><br></em></p><br>
+        <a class="btn btn-outline-light lsh-carou-txt" href="inscription.html#contact" role="button"><b>Inscris toi vite
+                !</b></a>
+    </div>
+
+
+    <!--Jumbotron FIN-->
+
+
+    <!--Accordéon-->
+    <div class="container-fluid lsh-accordeon">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header lsh-accordeon-backcolor" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                            id="ninja_fullstack">
+                            <h2>Ninja Fullstack</h2>
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body lsh-accordeon-backcolor text-justify">
+                        <p>Tu es un.e guerrier.ière dans l’âme ? Le format intensif du Bootcamp te motive ?<br><br>
+                            Si tu es du genre pressé.e cette formation est pour toi !
+                            Ce parcours entièrement en téléprésentiel est constitué de modules complémentaires qui te
+                            permettent de monter en compétences progressivement.<br>
+                            La pédagogie se compose de cours théoriques avant la réalisation d’exercices et de projets.
+                            Ceci afin d’allier la pratique aux enseignements magistraux.<br>
+                            Tu pourras frimer car tu maitriseras le Front-end JS, React, Back-end NodeJS, Express,
+                            MongoDB et mobile React Native pour iOS et Android.<br> Les deux dernières semaines de la
+                            formation sont consacrées à la réalisation d’un projet réel (en lien avec une start-up de
+                            l’écosystème numérique) afin de consolider tes acquis et de t’apporter une vision globale de
+                            la gestion de projet web. Tout cela en restant tranquillement chez toi !</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header lsh-accordeon-backcolor" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center collapsed" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo" id="ninja_web">
+                            <h2>Ninja Web</h2>
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body lsh-accordeon-backcolor text-justify">
+                        <p>Cette formation est faite pour t’accompagner pas à pas et te donner confiance !<br><br>
+                            Les 4 mois de formation te permettent d’acquérir les fondamentaux du développement frontend
+                            (côté
+                            client) et de maîtriser les langages HTML, CSS et JavaScript.<br> Une fois ces
+                            langages assimilés, place à la réalisation back-end (côté serveur) et le très populaire
+                            langage PHP !<br> Tu pourras mettre en application toutes tes connaissances grâce aux
+                            nombreux projets que tu auras à réaliser tout au long du parcours.<br> Le programme permet
+                            également d’acquérir de solides compétences en gestion de projet agile (méthode SCRUM)
+                            ainsi qu’en ergonomie et UX (Expérience Utilisateur).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Accordéon FIN-->
+
+
+    <!--Cards-->
+
+
+    <div class="row row-cols-1 row-cols-md-3 justify-content-end lsh-cards-txt lsh-carou-backcolor-marg">
+        <div class="col mb-4">
+            <div class="card h-100 lsh-card-size-img lsh-cards-background">
+                <img src="assets/images/ninja-1.jpg" class="card-img-top mx-auto" alt="Maître Micha">
+                <div class="card-body lsh-cards-background">
+                    <h5 class="card-title text-center">Apprenti Micha</h5><br>
+                    <p class="card-text text-justify">On ressort avec une spécialité en JavaScript et tous les
+                        outils et
+                        méthodes
+                        nécessaires au
+                        métier de Ninja. Et surtout, ce bootcamp en petit comité favorise un meilleur apprentissage
+                        et contribue à un esprit de groupe unique.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 lsh-card-size-img lsh-cards-background">
+                <img src="assets/images/ninja-2.jpg" class="card-img-top mx-auto" alt="Maître Tuture">
+                <div class="card-body lsh-cards-background">
+                    <h5 class="card-title text-center">Apprenti Tuture</h5><br>
+                    <p class="card-text text-justify">Je cherchais une formation courte pour ma reconversion, j'ai
+                        choisi la Ninja
+                        Acamedy et je ne
+                        regrette pas mon choix ! Le programme est pertinent par rapport au marché de l'emploi, les
+                        intervenants sont top ! Un bon ratio théorie/pratique, une super ambiance, je recommande
+                        vivement !</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 lsh-carou-topmarges lsh-card-size-img lsh-cards-background">
+                <img src="assets/images/ninja-3.jpg" class="card-img-top mx-auto" alt="Guigui">
+                <div class="card-body lsh-cards-background">
+                    <h5 class="card-title text-center">Apprenti Guigui</h5><br>
+                    <p class="card-text text-justify">La Ninja Academy c'est bien plus qu'un centre qui dispense une
+                        formation bien ficelée, c'est un engagement et une communauté. A tout ceux et toutes celles
+                        qui
+                        sont tenté(e)s par
+                        l'initiation au dev en quelques semaines, la Ninja Academy est le bon choix !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Cards FIN-->
+    <!--Footer-->
+
+    <footer class="container-fluid lsh-footer-backcolor">
+        <div class="row">
+            <div class="col text-center">
+                <p>Formations Ninja By La Ninja Academy.<br>
+                    © La Ninja Academy 2020. All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Footer FIN-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+</body>

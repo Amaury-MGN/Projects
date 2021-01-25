@@ -1,0 +1,334 @@
+
+body{
+  background-color:rgb(85, 3, 3);
+}
+  
+  
+  /*NAV BAR */
+
+.lsh-logo img{
+  width: 200px;
+}
+.lsh-nav-font{
+  font-size: 30px;
+}
+.lsh-font-txt {
+  font-family: 'Permanent Marker', cursive;
+}
+@media (max-width: 768px){
+  .lsh-logo img{
+    width: 75px;
+  }
+  .lsh-nav-font{
+    font-size: 20px;
+  }
+}
+.lsh-backgroundcolor{
+  background-color: #225350;
+}
+  /*NAV BAR FIN */
+
+/*Cards Formations*/
+.lsh-cards-formations-size{
+  width:100%;
+}
+.lsh-cards-formations-backcolor{
+  background-color: black;
+  width:450px;  
+  height:450px;
+  margin:0 0 50px 0;
+}
+.lsh-cards-formations-txt h2{
+  font-size: 35px;
+  font-family: 'Grandstander', cursive;
+  color:rgb(129, 5, 5);
+}
+.lsh-cards-formations-txt p{
+  font-size: 25px;
+  font-family: 'Grandstander', cursive;
+  color:white;
+}
+.lsh-cards-formations-img{
+    margin-top:30px;
+}
+.lsh-cards-formations-img img{
+  margin-top:30px;
+  width:100%;  
+  height:350px;
+}
+@media (max-width:768px){
+  .lsh-cards-formations-backcolor{
+    background-color: black;
+    width:100%;  
+    height:250px;
+    margin:0 0 50px 0;
+  }
+
+  .lsh-cards-formations-txt h2{
+    font-size: 25px;
+    font-family: 'Grandstander', cursive;
+    color:rgb(129, 5, 5);
+  }
+  .lsh-cards-formations-img img{
+    margin-top: 10px;
+    width:100%;  
+    height:auto;
+  }
+  .lsh-cards-formations-txt p{
+    font-size: 15px;
+    font-family: 'Grandstander', cursive;
+    color:white;
+  }
+}
+
+
+
+
+  /*Carousel*/
+
+.lsh-carou-topmarges {
+    margin:0;
+    padding: 0;
+  }
+
+.lsh-carou-marges{
+  margin-top:180px;
+  margin-bottom:140px;
+}
+
+.lsh-carou-background{
+  height:27vw;
+  color:white;
+  text-align:center;
+}
+
+.lsh-carou-background h1{
+  font-size: 70px;
+  margin-top:70px;
+}
+
+.lsh-carou-background p{
+  font-family: 'Grandstander', cursive;
+  font-size: 50px;
+}
+
+.btn {
+  font-size:25px;
+}
+
+.lsh-carou-txt{
+  font-family: 'Permanent Marker', cursive;
+}
+
+@media (max-width:768px){
+  .lsh-carou-marges{
+    margin-top: 100px;
+    margin-bottom:260px;
+  }
+  .lsh-carou-topmarges img{
+    height:230px;
+  }
+  .lsh-carou-background{
+    height:10px;
+    color:white;
+    text-align:center;
+  }
+  .lsh-carou-background h1{
+    font-size:15px;
+  }
+  
+  .lsh-carou-background p{
+    font-family: 'Grandstander', cursive;
+    font-size: 10px;
+  }
+  .lsh-carou-txt{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10px;
+  }
+}
+
+  /*Carousel FIN*/
+
+
+  /*Cards*/
+.lsh-carou-backcolor-marg{
+  margin:0;
+  margin-top:35px;
+  background-color:rgb(85, 3, 3);
+}
+
+
+.lsh-cards-background {
+  background-color:black;
+}
+.lsh-cards-txt h5{
+  font-family: 'Permanent Marker', cursive;
+  color:rgb(129, 5, 5);
+  font-size: 40px;
+}
+.lsh-cards-txt p{
+  font-family: 'Grandstander', cursive;
+  color:white;
+  font-size:20px;
+}
+.lsh-card-size-img img{
+  margin-top:30px;
+  width:100%;
+}
+
+
+  /*Cards FIN*/
+
+   /*Jumbotron*/
+
+   .lsh-jumb-marges{
+    background-image: url("../assets/images/carousel-1.jpg");
+    margin-top:120px;
+    margin-bottom:10px;
+  }
+  
+  .lsh-jumb-background{
+    height:550px;
+    color:white;
+    text-align:center;
+  }
+  
+  .lsh-jumb-background h1{
+    font-size: 70px;
+    margin-top:70px;
+  }
+  
+  .lsh-jumb-background p{
+    font-family: 'Grandstander', cursive;
+    font-size: 50px;
+  }
+  @media (max-width:768px){
+    .lsh-jumb-topmarges{
+      margin:0;
+      padding:0;
+    }
+    .lsh-jumb-marges{
+      margin-top: 100px;
+      margin-bottom:260px;
+    }
+    .lsh-jumb-topmarges img{
+      height:250px;
+    }
+    .lsh-jumb-background{
+      height:10px;
+      color:white;
+      text-align:center;
+    }
+    .lsh-jumb-background h1{
+      font-size:15px;
+    }
+    
+    .lsh-jumb-background p{
+      font-family: 'Grandstander', cursive;
+      font-size: 10px;
+    }
+    .lsh-jumb-txt{
+      font-family: 'Permanent Marker', cursive;
+      font-size: 10px;
+    }
+  }
+
+
+  /*Footer*/
+.lsh-footer-backcolor{
+  font-size:13px;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
+
+@media (max-width:768px) {
+  .lsh-footer-backcolor{
+    font-size: 10px;
+  }
+}
+  /*Footer FIN*/
+
+  /*Jumbotron*/
+
+  .lsh-jumb-marges{
+    background-image: url("../assets/images/carousel-1.jpg");
+    margin-top:120px;
+    margin-bottom:50px;
+  }
+  
+  .lsh-jumb-background{
+    height:550px;
+    color:white;
+    text-align:center;
+  }
+  
+  .lsh-jumb-background h1{
+    font-size: 70px;
+    margin-top:70px;
+  }
+  
+  .lsh-jumb-background p{
+    font-family: 'Grandstander', cursive;
+    font-size: 50px;
+  }
+  @media (max-width:768px){
+    .lsh-jumb-marges{
+      background-image: url("../assets/images/carousel-1.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+      margin-top:100px;
+      margin-bottom:25px;
+    }
+     .lsh-carou-topmarges {
+      margin:0;
+      padding: 0;
+    }
+    .lsh-jumb-background{
+      height:270px;
+      color:white;
+      text-align:center;
+    }
+    .lsh-jumb-background h1{
+      font-size:15px;
+    }
+    
+    .lsh-jumb-background p{
+      font-family: 'Grandstander', cursive;
+      font-size: 10px;
+    }
+    .lsh-jumb-txt{
+      font-family: 'Permanent Marker', cursive;
+      font-size: 10px;
+    }
+  }
+
+  /*ACCORDEON*/
+  .lsh-accordeon-backcolor{
+    background-color: black;
+  }
+  .lsh-accordeon h2{
+    font-size: 35px;
+    font-family: 'Grandstander', cursive;
+    color:rgb(129, 5, 5);
+  }
+  .lsh-accordeon p{
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    color:white;
+  }
+
+  /*FORMS*/
+  .lsh-forms-backcolor{
+    background-color: black;
+  }
+  .lsh-forms-color-label{
+     font-family: 'Grandstander', cursive;
+    color:rgb(129, 5, 5);
+  }
+  .lsh-forms-marg{
+    margin-top:25px;
+    padding-bottom:25px;
+  }
